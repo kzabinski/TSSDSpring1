@@ -17,7 +17,7 @@ public class GreetingController {
         for(int i = 0; i < 5; i++) {
         	if(true)
         		for(int j = 0; j < 10; j++) {
-        			
+        			if(false);
         		}
         }
         return new Greeting(counter.incrementAndGet(),
