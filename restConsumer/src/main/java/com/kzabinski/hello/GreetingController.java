@@ -14,6 +14,12 @@ public class GreetingController {
 
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        for(int i = 0; i < 5; i++) {
+        	if(true)
+        		for(int j = 0; j < 10; j++) {
+        			
+        		}
+        }
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
